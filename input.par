@@ -1,0 +1,29 @@
+#DO NOT ALTER THE ORDER OF LINES WITHOUT '#'
+#Set working directory name
+/home/alveslab/test
+#Set camera name
+TD_UGA1
+#Set image width (pixels)
+640
+#Set image height (pixels)
+480
+#Set frames per second
+30
+#Set distance (m) from ROI to trigger camera
+0.2
+#Set cordinate for left bottom of ROI (pixels)
+319
+#Set cordinate for right bottom of ROI (pixels)
+322
+#Set cordinate for minimum height of  ROI (pixels)
+239
+#Set cordinate for maximum height of ROI (pixels)
+242
+#Allow Exposure priority for RGB images
+0
+#Allow laser for Infrared Sensor
+0
+#Allow RGB images to be captured
+0
+#Write all information to log document 
+1
