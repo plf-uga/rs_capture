@@ -1,6 +1,6 @@
 #DO NOT ALTER THE ORDER OF LINES WITHOUT '#'
 #Set working directory name
-/home/alveslab/test
+/home/alveslab/Img_MP
 #Set camera name
 TD_UGA1
 #Set image width (pixels)
@@ -10,7 +10,7 @@ TD_UGA1
 #Set frames per second
 30
 #Set distance (m) from ROI to trigger camera
-0.2
+1.65
 #Set cordinate for left bottom of ROI (pixels)
 319
 #Set cordinate for right bottom of ROI (pixels)
@@ -22,8 +22,13 @@ TD_UGA1
 #Allow Exposure priority for RGB images
 0
 #Allow laser for Infrared Sensor
-0
+1
 #Allow RGB images to be captured
 0
 #Write all information to log document 
-1
+2
+#Chose which camera to use (in case of multiple cameras, first camera = 0)
+0
+#Chose the run length (minutes) to run the camera (e.g., 20 for running for 20 minutes, -1 runs for indefinite time)
+2
+
